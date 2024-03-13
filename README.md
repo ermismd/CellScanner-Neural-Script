@@ -12,24 +12,25 @@ Install Anaconda: Download and install Anaconda from Anaconda's official website
 1. Open Anaconda Navigator application and launch JupyterLab
 
 2. Open the Notebook <<NeuralNetworkPredictions2.ipynb>>
+   
 3. The notebook includes commented-out commands to install the necessary Python packages via pip. 
     - Simply uncomment them and run the corresponding cell in the notebook. 
 
 #### Linux users
 1. Ensure that Python 3 is installed
 2.Create a Virtual Environment (Optional):
-   - Open a terminal. Navigate to the project directory. Create a virtual environment by running:
+    -Open a terminal. Navigate to the project directory. Create a virtual environment by running:
      
-         >> python3 -m venv myenv
-         >> source myenv/bin/activate
+         python3 -m venv myenv
+         source myenv/bin/activate
 
 3.With the virtual environment activated, install JupyterLab using pip:
-   
-         >> pip install jupyterlab
+
+             pip install jupyterlab
 
 4.Start JupyterLab:
 
-        >> jupyter lab
+             jupyter lab
 
 5.Install Dependencies:
 
