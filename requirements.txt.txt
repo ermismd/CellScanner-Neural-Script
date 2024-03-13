@@ -1,0 +1,9 @@
+pandas
+numpy
+fcsparser
+scikit-learn
+tensorflow
+keras
+matplotlib
+seaborn
+plotly
