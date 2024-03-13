@@ -9,23 +9,25 @@ This project is designed to run in a Jupyter Notebook.
 
 #### Windows Users (Using Anaconda)
 Install Anaconda: Download and install Anaconda from Anaconda's official website. 
-Open Anaconda Navigator application and launch JupyterLab, open the Notebook <<NeuralNetworkPredictions2.ipynb>>
-The notebook includes commented-out commands to install the necessary Python packages via pip. To execute these commands,
-simply uncomment them and run the corresponding cell in the notebook. 
+1. Open Anaconda Navigator application and launch JupyterLab
+
+2. Open the Notebook <<NeuralNetworkPredictions2.ipynb>>
+3. The notebook includes commented-out commands to install the necessary Python packages via pip. 
+    - Simply uncomment them and run the corresponding cell in the notebook. 
 
 #### Linux users
-Ensure that Python 3 is installed on your system. Y
-Create a Virtual Environment (Optional):
-Open a terminal. Navigate to your project directory. Create a virtual environment by running:
->>python3 -m venv myenv
->>source myenv/bin/activate
+1. Ensure that Python 3 is installed
+2 .Create a Virtual Environment (Optional):
+   - Open a terminal. Navigate to the project directory. Create a virtual environment by running:
+        - >> python3 -m venv myenv
+        - >> source myenv/bin/activate
 
-With your virtual environment activated, install JupyterLab using pip:
->>pip install jupyterlab
+3. With the virtual environment activated, install JupyterLab using pip:
+    - >> pip install jupyterlab
 
-Start JupyterLab:
->> jupyter lab
+4.Start JupyterLab:
+    - >> jupyter lab
 
-Install Dependencies:
-In JupyterLab, open the notebook file. You can install the necessary libraries directly within the notebook by uncommenting 
-and running the pip installation commands provided in the notebook cells.
+5.Install Dependencies:
+      - In JupyterLab, open the notebook file. You can install the necessary libraries directly within the notebook by uncommenting 
+      and running the pip installation commands provided in the notebook cells like before.
