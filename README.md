@@ -1,40 +1,62 @@
 # Neural Network Predictions for Flow Cytometry
+
 ## Overview
 
-This project aims to train a neural network using flow cytometry data to predict coculture compositions. The model is designed to analyze monoculture flow cytometry files, as well as blanks, to identify species present in coculture files. Additionally, the model employs gating strategies to classify cells into categories such as live, dead, and debris.
+This project aims to train a neural network using flow cytometry data to predict the composition of cocultures. By analyzing monoculture flow cytometry files, along with blanks, the model identifies the species present in coculture files. The model utilizes gating strategies to classify cells into categories such as live, dead, and debris.
 
-### Installation Instructions 
+## Prerequisites
 
-This project is designed to run in a Jupyter Notebook.
+- Python 3.7.0 or higher
+- pandas
+- numpy
+- fcsparser
+- scikit-learn
+- tensorflow
+- keras
+- matplotlib
+- seaborn
+- plotly
 
-#### Windows Users (Using Anaconda)
-Install Anaconda: Download and install Anaconda from Anaconda's official website. 
-1. Open Anaconda Navigator application and launch JupyterLab
+## Installation Instructions
 
-2. Open the Notebook <<NeuralNetworkPredictions2.ipynb>>
-   
-3. The notebook includes commented-out commands to install the necessary Python packages via pip. 
-    - Simply uncomment them and run the corresponding cell in the notebook. 
+This project is designed to run in a Jupyter Notebook environment.
 
-#### Linux users
-1. Ensure that Python 3 is installed
-2.Create a Virtual Environment (Optional):
-    -Open a terminal. Navigate to the project directory. Create a virtual environment by running:
-     
-         python3 -m venv myenv
-         source myenv/bin/activate
+### For Windows Users (Using Anaconda)
 
-3.With the virtual environment activated, install JupyterLab using pip:
+1. **Install Anaconda**: Download and install Anaconda from [Anaconda's official website](https://www.anaconda.com/products/distribution).
+2. **Launch JupyterLab**:
+   - Open the Anaconda Navigator application.
+   - Launch JupyterLab.
+3. **Open the Notebook**:
+   - Open the notebook named `NeuralNetworkPredictions2.ipynb`.
+4. **Install Dependencies**:
+   - The notebook includes commented-out commands for installing the necessary Python packages via pip. Simply uncomment them and run the corresponding cells in the notebook.
 
-             pip install jupyterlab
+### For Linux Users
 
-4.Start JupyterLab:
+1. **Ensure Python 3 is Installed**: Verify that Python 3.7.0 or higher is installed on your system.
+2. **Create a Virtual Environment (Optional)**:
+   - Open a terminal and navigate to the project directory.
+   - Create a virtual environment by running:
+     ```
+     python3 -m venv myenv
+     source myenv/bin/activate
+     ```
+3. **Install JupyterLab**:
+   - With the virtual environment activated, install JupyterLab using pip:
+     ```
+     pip install jupyterlab
+     ```
+4. **Start JupyterLab**:
+   - Launch JupyterLab by running:
+     ```
+     jupyter lab
+     ```
+5. **Install Dependencies**:
+   - In JupyterLab, you can install the necessary libraries directly within the notebook by uncommenting and running the pip installation commands as shown in the notebook.
 
-             jupyter lab
+## Getting Started
 
-5.Install Dependencies:
+After completing the installation, navigate through the `NeuralNetworkPredictions2.ipynb` notebook. It will guide you through loading the data, training the model, and making predictions on new data sets.
 
- In JupyterLab you can install the necessary libraries directly within the notebook by uncommenting 
- and running the pip installation commands like before.
-
-
+Enjoy exploring and predicting with your flow cytometry data!
