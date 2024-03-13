@@ -17,17 +17,23 @@ Install Anaconda: Download and install Anaconda from Anaconda's official website
 
 #### Linux users
 1. Ensure that Python 3 is installed
-2 .Create a Virtual Environment (Optional):
+2.Create a Virtual Environment (Optional):
    - Open a terminal. Navigate to the project directory. Create a virtual environment by running:
-        - >> python3 -m venv myenv
-        - >> source myenv/bin/activate
+     
+         >> python3 -m venv myenv
+         >> source myenv/bin/activate
 
-3. With the virtual environment activated, install JupyterLab using pip:
-    - >> pip install jupyterlab
+3.With the virtual environment activated, install JupyterLab using pip:
+   
+         >> pip install jupyterlab
 
 4.Start JupyterLab:
-    - >> jupyter lab
+
+        >> jupyter lab
 
 5.Install Dependencies:
-      - In JupyterLab, open the notebook file. You can install the necessary libraries directly within the notebook by uncommenting 
-      and running the pip installation commands provided in the notebook cells like before.
+
+ In JupyterLab you can install the necessary libraries directly within the notebook by uncommenting 
+ and running the pip installation commands like before.
+
+
